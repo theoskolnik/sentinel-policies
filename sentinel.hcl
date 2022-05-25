@@ -15,5 +15,5 @@ policy "aws-cis-4.3-networking-restrict-all-vpc-traffic-acl-rules" {
 
 policy "enforce-mandatory-tags" {
   source = "./enforce-mandatory-tags/enforce-mandatory-tags.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
